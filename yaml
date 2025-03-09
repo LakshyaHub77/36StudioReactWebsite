@@ -1,0 +1,15 @@
+    <div className="w-full relative min-h-screen  text-white">
+          {data[1].map((canvadets, index) => (
+            <Canvas details={canvadets} key={index} />
+          ))}
+        </div>
+        <div className="w-full relative min-h-screen  text-white">
+          {data[2].map((canvadets, index) => (
+            <Canvas details={canvadets} key={index} />
+          ))}
+        </div>
+        <div className="w-full relative min-h-screen  text-white">
+          {data[3].map((canvadets, index) => (
+            <Canvas details={canvadets} key={index} />
+          ))}
+        </div>

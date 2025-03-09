@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body{
+  /* background-color:#fd2c2a ;
+ */
+ transition: all cub;
+ background-color: black;
+ color: #fff;
+
+
+}
+canvas{
+  pointer-events: none;
+}
+span.growing{
+  background-color: #fd2c2a;
+}
